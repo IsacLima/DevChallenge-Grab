@@ -1,10 +1,14 @@
+# Grab
 <p align="center">
   <img src="design/desktop-design.jpg" alt="Logo" width="350">
   <h3 align="center">Grab - Página de login</h3>
 </p>
 
-## Desafio
-O desafio será criar uma página de login e verificar se o formulário foi preenchido corretamente.
+## acesse com o link que está na descrição ou [clique aqui](https://isaclima.github.io/DevChallenge-Grab/)
+
+#Sobre
+
+Uma landing page simples que se propõe a apresentar um tela de login bem intuitiva e responsiva.
 
 ## Tecnologias
 HTML
