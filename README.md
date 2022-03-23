@@ -6,7 +6,7 @@
 
 ## acesse com o link que está na descrição ou [clique aqui](https://isaclima.github.io/DevChallenge-Grab/)
 
-#Sobre
+# Sobre
 
 Uma landing page simples que se propõe a apresentar um tela de login bem intuitiva e responsiva.
 
