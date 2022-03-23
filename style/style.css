@@ -7,6 +7,7 @@
 
 body{
 	width: 100%;
+	height: 100vh;
 	background-color: #4E5BEE;
 }
 
@@ -26,7 +27,7 @@ header{
 	height: auto;
 }
 
-main{
+.content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -96,8 +97,33 @@ footer{
 
 .bg{
 	display: none;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
 }
 
-/*nao terminado*/
+.bg__img{
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (min-width:1024px){
+	body{
+		display: grid;
+		grid-template-areas: 'main bg';
+		grid-template-columns: 40% 60%;		
+		overflow: hidden;
+	}
+
+	main{
+		grid-area: main;
+	}
+	
+	.bg{
+		grid-area: bg;
+		display: flex;
+		background-color: #E5E5E5;
+	}
+}
 
 
